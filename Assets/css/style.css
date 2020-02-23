@@ -1,0 +1,986 @@
+/*  START CSS CODE FOR HOMEPAGE*/
+
+body {
+    background-color: #f3f8f2;
+}
+
+
+/*  Start CSS Code for topNavbar*/
+
+.topNavbar .container-fluid {
+    background: #283128;
+    padding: 15px 10px 15px 60px;
+}
+
+.topNavbar .logo img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.logo .logoName {
+    font-size: 35px;
+    font-weight: 600px;
+    vertical-align: top;
+    margin-left: 20px;
+    color: white;
+    opacity: 0.8;
+}
+
+.logo a {
+    text-decoration: none;
+    display: inline;
+}
+
+.topNavleft ul {
+    list-style-type: none;
+    display: inline;
+}
+
+.topNavleft ul li {
+    display: inline;
+    padding: 20px 10px;
+}
+
+.topNavleft ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    opacity: 0.7;
+    display: inline-block;
+}
+
+.topNavleft ul li input {
+    vertical-align: middle;
+    color: white;
+}
+
+.topNavleft ul li input:focus {
+    outline: none;
+}
+
+.topNavleft ul li input[type=search] {
+    margin-left: 100px;
+    border: 1px solid white;
+    background-color: #283128;
+    color: white;
+    padding: 0px 10px;
+}
+
+.topNavleft ul li input[type=button] {
+    background: #283128;
+    margin-left: 10px;
+    border: none;
+    padding: 0px 12px;
+    background: #527D62;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.topNavleft ul li input[type=button]:hover {
+    background: #283128;
+    color: white;
+    border: 1px white solid;
+}
+
+
+/*End CSS Code for topNavbar*/
+
+
+/*  Start CSS Code for CoverSlider */
+
+.slideitem {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex;
+}
+
+.overlay1 {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+
+.overlay {
+    width: 40%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    transform: skewX(20deg);
+    transform: rotate(30deg);
+}
+
+.overlayText {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    padding: 100px 80px;
+}
+
+.overlayText h1 {
+    margin-top: 110px;
+    margin-left: 160px;
+    color: white;
+    opacity: 0.8;
+}
+
+.overlayText h3 {
+    margin-left: 110px;
+    color: white;
+    opacity: 0.6;
+}
+
+#carousel {
+    position: relative;
+}
+
+#carousel .owl-nav button {
+    position: absolute;
+}
+
+#carousel .owl-prev {
+    top: 50%;
+    left: 35px;
+    color: white;
+    background: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+}
+
+#carousel .owl-next:hover,
+#carousel .owl-prev:hover {
+    background-color: blue;
+}
+
+#carousel .owl-prev,
+.owl-next:focus {
+    outline: none;
+}
+
+#carousel .owl-next {
+    top: 50%;
+    right: 15px;
+    color: white;
+    background: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+}
+
+#carousel .owl-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#carousel .owl-dots button {
+    width: 15px;
+    height: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background: red;
+    margin-left: 10px;
+    opacity: 0.8;
+}
+
+#carousel .owl-dots button:focus {
+    outline: none;
+}
+
+#carousel .owl-dots .active {
+    background-color: white;
+    opacity: 0.6;
+}
+
+
+/*  End CSS Code for CoverSlider  */
+
+
+/*  Start CSS Code for NavigationBar  */
+
+.NavigationBar {
+    background: #507B60;
+    width: 100%;
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    list-style-type: none;
+    padding: 15px 5px 15px 5px;
+}
+
+.NavigationBar ul li a {
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+
+/*
+.krishiNav {
+   
+    font-size: 16px;
+    border: none;
+}
+*/
+
+.dropdownNav {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdownNav:hover .dropdown-content {
+    display: block;
+}
+
+.dropdownNav:hover {
+    background-color: #3e8e41;
+    padding-right: 33px;
+}
+
+#Jogajog {
+    width: 242px;
+}
+
+#Gallery {
+    width: 225px;
+}
+
+#Upokoron {
+    width: 400px;
+}
+
+.column {
+    padding-left: 70px;
+}
+
+
+/*  End CSS Code for NavigationBar  */
+
+
+/*  Start CSS Code for Section4  */
+
+.socialSite {
+    margin-top: 215px;
+}
+
+.itemProfile {
+    text-align: center;
+    margin-top: 40px;
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.itemProfile i {
+    font-size: 20px;
+    color: white;
+    margin: 30% auto;
+}
+
+.itemProfile:hover {
+    background-color: black;
+}
+
+.headNews {
+    margin-bottom: 20px;
+}
+
+.newsImage {
+    width: 100%;
+    height: 200px;
+}
+
+.Section4 h4 {
+    margin: 15px 0px;
+    text-align: justify;
+}
+
+.Section4 .pera {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.Section4 a {
+    text-decoration: none;
+}
+
+.Section4 .poron {
+    margin-left: 55%;
+    font-size: 18px;
+}
+
+.Section4 .right {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.SITES {
+    margin-top: 170px;
+    padding-left: 60px;
+}
+
+.otherSite {
+    width: 80px;
+    height: 80px;
+    background: rgba(0, 0, 1, 0.5);
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+.otherSite img {
+    width: 90%;
+    height: 90%;
+    color: white;
+}
+
+.otherSite:hover {
+    background-color: black;
+}
+
+.otherSite:hover:last-child {
+    background: white;
+}
+
+
+/*  End CSS Code for Section4  */
+
+
+/*  Start CSS Code for communicationSection  */
+
+.comunication {
+    margin-top: 50px;
+    padding: 50px 75px;
+    background: rgba(142, 35, 48, 0.4);
+}
+
+.contactofficer h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    text-decoration: underline dotted white;
+}
+
+.profile img {
+    width: 140px;
+    height: 140px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.profileDescript {
+    padding-top: 20px;
+}
+
+.pageNo {
+    width: 24%;
+    padding: 30px 0px;
+    margin-left: 45%;
+}
+
+.page {
+    width: 6%;
+    float: left;
+    background: orange;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.profileDescript input {
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+
+/*  end CSS Code for communicationSection  */
+
+
+/*  Start CSS Code for Section5  */
+
+.Section5 {
+    margin-bottom: 60px;
+    background: rgba(142, 35, 48, 0.2);
+    padding: 40px 10px;
+}
+
+.Section5 h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Weather {
+    text-align: center;
+}
+
+.Weather img {
+    width: 90%;
+    height: 400px;
+}
+
+
+/*  End CSS Code for Section5  */
+
+
+/*  Start CSS Code for Section6  */
+
+.Section6 h4 {
+    text-align: center;
+    background: rgba(0, 1, 0, 0.3);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.Section6 h5 {
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.Section6 p {
+    text-align: justify;
+    padding: 0px 15px;
+    margin: 0px;
+}
+
+.tips a {
+    text-decoration: none;
+    margin-left: 250px;
+}
+
+.tips hr {
+    border-bottom: 1px solid black;
+    margin: 25px 0px;
+}
+
+.quickService {
+    text-align: center;
+}
+
+.office {
+    display: none;
+    font-size: 18px;
+}
+
+.krishiOffice {
+    width: 100%;
+    padding: 10px;
+}
+
+.officeNear {
+    text-align: center;
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+.call {
+    display: none;
+    font-size: 18px;
+}
+
+.callCenter {
+    width: 100%;
+    padding: 10px;
+}
+
+.callccenter {
+    text-align: center;
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+div#circle,
+#circle1,
+#circle2,
+#circle3,
+#circle4,
+#circle5 {
+    position: relative;
+    text-align: center;
+}
+
+div#circle span,
+#circle1 span,
+#circle2 span,
+#circle3 span,
+#circle4 span,
+#circle5 span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.allKrishi h5 {
+    margin-top: 15px;
+}
+
+
+/*  End CSS Code for Section6  */
+
+
+/* Start CSS Code for FooterSection*/
+
+.Footer {
+    background: #283128;
+    margin-top: 50px;
+    padding-top: 25px;
+}
+
+.footerImage {
+    width: 40%;
+    float: left;
+    padding-left: 40px;
+}
+
+.footerImage img {
+    width: 100%;
+    height: 180px;
+}
+
+.footerAddress {
+    width: 60%;
+    float: right;
+    padding: 20px 30px;
+}
+
+.footerAddress h6 {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footerAddress p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+}
+
+.footerAddress p span {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footerLink h4 {
+    color: white;
+    padding-top: 15px;
+}
+
+.footerLink ul li {
+    list-style-type: none;
+    display: block;
+    line-height: 2px;
+}
+
+.footerLink ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.visitors {
+    padding-top: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.visitors h4 {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.visitors img {
+    width: 80%;
+}
+
+
+/* End CSS Code for FooterSection*/
+
+
+/* Start CSS Code for bottomFooterSection*/
+
+.bootomFooter {
+    background: black;
+}
+
+.bootomFooter p {
+    text-align: right;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.3);
+    padding: 10px 15px 5px 0px;
+}
+
+
+/* End CSS Code for bottomFooterSection*/
+
+
+/*END CSS CODE FOR HOMEPAGE*/
+
+
+/*------------------------------------------------------------*/
+
+
+/*START CSS CODE FOR KRISHI-UPOKORON-PAGE*/
+
+
+/*START CSS CODE FOR MATI-PAGE*/
+
+
+/*END CSS CODE FOR MATI-PAGE*/
+
+
+/*END CSS CODE FOR KRISHI-UPOKORON-PAGE*/
+
+
+/*------------------------------------------------------------------*/
+
+
+/*START CSS CODE FOR KRISHI-Jogajog-PAGE*/
+
+
+/*START CSS CODE FOR Bivagiyo-PAGE*/
+
+
+/* Start CSS Code for Main Section*/
+
+
+/* End CSS Code for Main Section*/
+
+.card-header {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.card-header:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+
+/*
+.active:after {
+    content: "\2796";
+     Unicode character for "minus" sign (-) 
+}
+*/
+
+
+/*End CSS CODE FOR Bivagiyo-PAGE*/
+
+
+/*-----------------------*/
+
+
+/*Start CSS CODE FOR Ancholik-PAGE*/
+
+.district {
+    text-align: center;
+}
+
+
+/*End CSS CODE FOR Ancholik-PAGE*/
+
+
+/*End CSS CODE FOR KRISHI-Jogajog-PAGE*/
+
+
+/*-------------------------------------------*/
+
+
+/*Start CSS CODE FOR FAQ-PAGE*/
+
+.content ul li {
+    display: block;
+}
+
+
+/*End CSS CODE FOR FAQ-PAGE*/
+
+
+/*-----------------------------------------------*/
+
+
+/*--------------------------*/
+
+
+/*Start css code for officer page*/
+
+.profileOne {
+    border: 2px solid red;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px dimgray;
+}
+
+.officerImg {
+    float: left;
+    margin-right: 70px;
+    padding-left: 30px;
+}
+
+.officerDetail {
+    padding: 50px 0px;
+}
+
+#accordion {
+    padding-bottom: 30px;
+}
+
+.officerProfile {
+    padding-bottom: 40px;
+}
+
+.socialNet {
+    padding-bottom: 10px;
+}
+
+.socialNet ul {
+    text-align: center;
+}
+
+.socialNet ul li {
+    display: inline-block;
+}
+
+.socialNet i {
+    font-size: 25px;
+    background-color: dimgray;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-top: 10px;
+    color: white;
+}
+
+.socialNet i:hover {
+    background: white;
+    color: dimgray;
+    border: 1px solid black;
+}
+
+.typewriter h3 {
+    text-align: center;
+    color: dimgray;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(30, end) infinite, blink-caret .5s step-end infinite;
+    padding-bottom: 10px;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+.table {
+    text-align: center;
+    width: 70%;
+    margin-left: 100px;
+    color: blue;
+    font-size: 20px;
+}
+
+.table td {
+    color: maroon;
+}
+
+.actionCall {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.actionCall button {
+    font-size: 22px;
+    border: none;
+    outline: none;
+    background: orange;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin: 0px 8px;
+}
+
+.actionCall button:hover {
+    color: white;
+    background: dimgray;
+}
+
+
+/*End css code for officer page*/
+
+
+/*--------------------------------------------*/
+
+
+/*Start css code for fosol chasabad page*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.h4,
+h4 {
+    font-size: 1.5rem;
+    background-color: #0d7b09;
+    height: 50px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: darkblue;
+    background-color: #0d7b09;
+    font-size: 35px;
+    margin: 5px;
+}
+
+.nav-pills .nav-link {
+    border-radius: .25rem;
+    background-color: #0d7b09;
+    color: #fff;
+    font-size: 35px;
+    margin: 5px;
+}
+
+.col-md-9 {
+    /*    padding-top: 100px;*/
+    padding-bottom: 100px;
+    background-color: #fff;
+}
+
+div#headingOne {
+    background-color: black;
+}
+
+.btn-link {
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+}
+
+div#accordion {
+    padding-top: 40px;
+    margin-left: 5px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    background-color: transparent;
+    display: block;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+textarea#exampleFormControlTextarea1 {
+    background-color: black;
+    color: #fff;
+}
+
+input#exampleInputEmail1 {
+    background-color: black;
+    color: #fff;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-weight: 600;
+    color: black;
+    padding-top: 55px;
+}
+
+button.btn.btn-primary {
+    background-color: black;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 41%;
+    margin-top: 13px;
+}
+
+button.btn.btn-primary:hover {
+    background-color: green;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 41%;
+    margin-top: 13px;
+}
+
+.column.block {
+    padding-top: 53px;
+    margin-left: 30px;
+}
+
+button {
+    font-size: 31px;
+    background: green;
+}
+
+h5.shajib {
+    color: white;
+    font-size: 23px;
+}
+
+
+/*End css code for fosol chasabad page*/

@@ -1,0 +1,224 @@
+/*
+author
+
+name:Sarwar Shajib;
+email:sarwarshajib@hotmail.com;
+website:;
+
+
+*/
+
+/*
+===Index===
+1.header
+2.hero
+3.fusec at
+4.
+5.
+6.
+7.
+
+*/
+
+/*Global css*/
+
+body{
+    font-family: 'Roboto Slab', serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-size: 30px;
+    color: black;
+    /* padding: 13px 0px; */
+    margin-top: 13px;
+}
+
+h2{
+   font-size: 60px;
+    color: #fff;
+}
+h3{
+    font-size: 30px;
+    color: #fff;
+    padding-top: 31px;
+}
+h4{
+    font-size: 30px;
+    color: black;
+}
+
+
+h6{
+   font-size: 15px;
+   color: #161616;
+   /* padding: 21px 0px; */
+   margin-top: 8px;
+   padding: 9px 0px;
+}
+p{
+  font-size: 15px;
+  color: #fff;
+  padding-bottom: 22px;
+}
+
+.btn-one {
+    background-color: #fff;
+    color: #663300;
+    border-radius: 20px;
+    padding: 5px 25px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+
+.btn-one:focus {
+    outline: none;
+}
+/*button facilisis*/
+.btn-read {
+    background-color: #fff;
+    color: #663300;
+    border-radius: 20px;
+    padding: 5px 25px;
+    
+
+}
+
+.btn-read:focus {
+    outline: none;
+}
+
+    
+
+/*my theme css*/
+
+/*header section start*/
+
+.navbar-head{
+       background-color: ##08080805;
+    padding: 35px 0px;
+}
+.nav-link{
+    color: #31353e!important;
+}
+.nav-link.js-scroll-trigger.active{
+    background-color: #dd4b2b!important;
+    padding: 10px 24px;
+    border-radius: 40px;
+    color: #fff!important;
+}
+
+/*hero section start*/
+
+.hero{
+  background: url(../img/banner.png)no-repeat center top;
+    background-size: cover;
+}
+.hero-main{
+    padding-top: 450px;
+    padding-bottom: 57px;
+}
+
+/*facilisis section start*/
+.our-news{
+    margin-top: 15px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#facilisis{
+    background-color: #cccccc;
+}
+
+/*newsletter section start*/
+
+.letter{
+  background-image: url(../img/footer.png);
+  background-size: cover;
+
+}
+.contact-form{
+    
+}
+.form-control{
+    
+margin-bottom: 39px;
+    
+position: relative;
+    
+border-radius: 25px;
+    
+    
+background: transparent;
+}
+.submit-control {
+    margin-bottom: 13px;
+    position: absolute;
+    right: 15px;
+    top: 67%;
+    border-radius: 25px;
+    padding: 8px 29px;
+    border: none;
+    background-color: #fff;
+    color: #663300;
+    border: 1px solid #663300;
+}
+.submit-control:focus {
+    margin-bottom: 13px;
+    position: absolute;
+    right: 15px;
+    top: 67%;
+    border-radius: 25px;
+    padding: 8px 29px;
+    border: none;
+    background-color: #fff;
+    border: 1px solid #663300;
+    outline: none;
+    background-color: maroon;
+    color: white;
+}
+
+.form-control:focus{
+    outline: none;
+    background: transparent;
+    border: none;
+}
+
+    
+
+/*add section start*/
+
+/*list-item section start*/
+
+ul li{
+    
+list-style: none;
+}
+ul li a{
+    
+text-decoration: none;
+    
+color: #fff;
+}
+.placerat-item{
+    background: #cc6600;
+}
+
+.image-content {
+    margin-top: -150px;
+    position: relative;
+    margin-left: 352px;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
